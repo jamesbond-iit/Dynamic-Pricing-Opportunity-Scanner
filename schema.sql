@@ -1,1 +1,20 @@
-CREATE TABLE IF NOT EXISTS pricing_sales (transaction_id VARCHAR(20) PRIMARY KEY,date DATE NOT NULL,year_month VARCHAR(7),product_id VARCHAR(20),customer_id VARCHAR(20),category VARCHAR(50),brand_tier VARCHAR(20),channel VARCHAR(30),customer_segment VARCHAR(30),base_cost NUMERIC(12,2),listed_price NUMERIC(12,2),competitor_price NUMERIC(12,2),discount_pct NUMERIC(6,2),units_sold INTEGER,revenue NUMERIC(14,2),gross_profit NUMERIC(14,2),margin_pct NUMERIC(8,2),price_gap_pct NUMERIC(8,2),baseline_elasticity NUMERIC(8,3),pricing_signal VARCHAR(20));
+CREATE TABLE IF NOT EXISTS 
+  pricing_sales (transaction_id VARCHAR(20) PRIMARY KEY,
+  date DATE NOT NULL,
+  year_month VARCHAR(7),
+  product_id VARCHAR(20),
+  customer_id VARCHAR(20),
+  category VARCHAR(50),
+  brand_tier VARCHAR(20),
+  channel VARCHAR(30),
+  customer_segment VARCHAR(30),
+  base_cost NUMERIC(12,2),
+  listed_price NUMERIC(12,2),
+  competitor_price NUMERIC(12,2),
+  discount_pct NUMERIC(6,2),
+  units_sold INTEGER,revenue NUMERIC(14,2),
+  gross_profit NUMERIC(14,2),
+  margin_pct NUMERIC(8,2),
+  price_gap_pct NUMERIC(8,2),
+  baseline_elasticity NUMERIC(8,3),
+  pricing_signal VARCHAR(20));
