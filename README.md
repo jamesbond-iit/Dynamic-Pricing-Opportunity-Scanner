@@ -94,25 +94,31 @@ Create a database named `pricing_analytics`, run `sql/schema.sql`, import `data/
 ## Project Structure
 
 ```text
-dynamic-pricing-opportunity-scanner/
-|-- data/
-|   `-- pricing_sales_data.csv
-|-- sql/
-|   |-- schema.sql
-|   `-- analysis.sql
-|-- notebooks/
-|   `-- dynamic_pricing_analysis.ipynb
-|-- dashboard/
-|   `-- app.py
-|-- docs/
-|   |-- price_scenarios.csv
-|   |-- product_pricing_opportunities.csv
-|   `-- screenshots/
-|-- analysis.py
-|-- requirements.txt
-|-- .gitignore
-|-- LICENSE
-`-- README.md
+Repository  
+→ data  
+  → pricing_sales_data.csv
+
+→ sql  
+  → schema.sql  
+  → analysis.sql
+
+→ notebooks  
+  → dynamic_pricing_analysis.ipynb
+
+→ dashboard  
+  → app.py
+
+→ docs  
+  → price_scenarios.csv  
+  → product_pricing_opportunities.csv  
+  → screenshots  
+    → dashboard.png
+
+→ analysis.py  
+→ requirements.txt  
+→ .gitignore  
+→ LICENSE  
+→ README.md
 ```
 
 ## Business Recommendations
