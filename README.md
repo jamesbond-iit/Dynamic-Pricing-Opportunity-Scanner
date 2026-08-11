@@ -1,5 +1,9 @@
 # Dynamic Pricing Opportunity Scanner
 
+![Dashboard Overview](https://github.com/jamesbond-iit/Dynamic-Pricing-Opportunity-Scanner/blob/main/dasboard_overview.png)
+
+![Pricing Scenarios](https://github.com/jamesbond-iit/Dynamic-Pricing-Opportunity-Scanner/blob/main/pricing_scenarios.png)
+
 ## Project Overview
 
 The Dynamic Pricing Opportunity Scanner is an end-to-end pricing analytics project that identifies products that may be underpriced, overpriced, or appropriately priced using demand, margin, competitor pricing, elasticity, and simulated revenue impact.
